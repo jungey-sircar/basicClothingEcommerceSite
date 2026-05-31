@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "_id": "user-8416b332-bafe-4977-a696-1cf2ccdfbf9a",
+      "name": "Demo Admin",
+      "email": "admin@demo.local",
+      "photoURL": "https://api.dicebear.com/9.x/initials/svg?seed=Admin",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    },
+    {
+      "_id": "user-26a38f65-bbbd-452c-8f1a-f63c156ba989",
+      "name": "Demo Manager",
+      "email": "manager@demo.local",
+      "photoURL": "https://api.dicebear.com/9.x/initials/svg?seed=Manager",
+      "role": "manager",
+      "status": "active",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    },
+    {
+      "_id": "user-a4b6dc80-7990-4212-a0cb-cea5ae6b5990",
+      "name": "Demo Buyer",
+      "email": "buyer@demo.local",
+      "photoURL": "https://api.dicebear.com/9.x/initials/svg?seed=Buyer",
+      "role": "buyer",
+      "status": "active",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod-6d31fb05-05f8-4a3b-a9d9-57bda77c526f",
+      "name": "Classic Cotton Shirt",
+      "category": "shirt",
+      "description": "A breathable cotton shirt for everyday office and casual wear.",
+      "price": 24,
+      "availableQuantity": 250,
+      "moq": 10,
+      "paymentOption": "Cash on Delivery",
+      "images": [
+        "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22%234f46e5%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2240%22%20fill%3D%22%23fff%22%3E%0A%20%20%20%20%20%20%20%20Cotton%20Shirt%0A%20%20%20%20%20%20%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "demoVideoLink": "",
+      "showOnHome": true,
+      "featured": true,
+      "addedByEmail": "manager@demo.local",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    },
+    {
+      "_id": "prod-2f7f397e-2662-4cd8-bed0-6861f67f283c",
+      "name": "Modern Utility Jacket",
+      "category": "jacket",
+      "description": "A lightweight jacket with clean lines and production-ready stitching.",
+      "price": 58,
+      "availableQuantity": 120,
+      "moq": 5,
+      "paymentOption": "Pay First",
+      "images": [
+        "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22%230f766e%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2240%22%20fill%3D%22%23fff%22%3E%0A%20%20%20%20%20%20%20%20Utility%20Jacket%0A%20%20%20%20%20%20%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "demoVideoLink": "",
+      "showOnHome": true,
+      "featured": true,
+      "addedByEmail": "manager@demo.local",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    },
+    {
+      "_id": "prod-c3f40917-2c15-4a13-9d71-2cdb057e89ee",
+      "name": "Slim Fit Denim Pant",
+      "category": "pant",
+      "description": "Durable denim pants with a slim fit and premium finishing.",
+      "price": 31,
+      "availableQuantity": 180,
+      "moq": 8,
+      "paymentOption": "Cash on Delivery",
+      "images": [
+        "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22%237c3aed%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2240%22%20fill%3D%22%23fff%22%3E%0A%20%20%20%20%20%20%20%20Denim%20Pant%0A%20%20%20%20%20%20%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "demoVideoLink": "",
+      "showOnHome": false,
+      "featured": false,
+      "addedByEmail": "manager@demo.local",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    },
+    {
+      "_id": "prod-fa306228-ef0c-42ce-bc49-bc2a66c75616",
+      "name": "Leather Belt Set",
+      "category": "accessories",
+      "description": "A compact belt set for retail bundles and gift packs.",
+      "price": 12,
+      "availableQuantity": 500,
+      "moq": 20,
+      "paymentOption": "Pay First",
+      "images": [
+        "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22%23b45309%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2240%22%20fill%3D%22%23fff%22%3E%0A%20%20%20%20%20%20%20%20Belt%20Set%0A%20%20%20%20%20%20%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "demoVideoLink": "",
+      "showOnHome": false,
+      "featured": false,
+      "addedByEmail": "manager@demo.local",
+      "createdAt": "2026-05-31T01:55:26.387Z",
+      "updatedAt": "2026-05-31T01:55:26.387Z"
+    }
+  ],
+  "orders": []
+}

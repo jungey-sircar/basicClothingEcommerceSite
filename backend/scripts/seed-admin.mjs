@@ -13,7 +13,7 @@
  *   ADMIN_NAME - Default admin name (optional)
  */
 
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 import mongoose from "mongoose";
 import path from "path";
 import { fileURLToPath } from "url";

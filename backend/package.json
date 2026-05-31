@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "src/server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js",
-    "start": "node src/server.js",
-    "smoke": "node scripts/smoke-test.mjs"
+    "dev": "node index.js",
+    "start": "node index.js",
+    "smoke": "node scripts/smoke-test.mjs",
+    "seed-admin": "node scripts/seed-admin.mjs",
+    "seed-admin:prod": "node scripts/seed-admin.mjs --email $ADMIN_EMAIL --name \"$ADMIN_NAME\"",
+    "validate-mongo": "node scripts/validate-mongo.mjs"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -15,7 +18,12 @@
     "express": "^5.1.0",
     "express-rate-limit": "^8.5.0",
     "helmet": "^8.1.0",
-    "morgan": "^1.10.0"
+    "mongoose": "^8.18.1",
+    "morgan": "^1.10.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.4"
   }
 }
 

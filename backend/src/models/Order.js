@@ -1,5 +1,4 @@
-import mongoose from "mongoose";
-
+﻿import mongoose from "mongoose";
 const trackingSchema = new mongoose.Schema(
   {
     location: { type: String, required: true, trim: true },
@@ -9,7 +8,6 @@ const trackingSchema = new mongoose.Schema(
   },
   { _id: false }
 );
-
 const orderSchema = new mongoose.Schema(
   {
     buyerEmail: { type: String, required: true, lowercase: true, trim: true, index: true },
@@ -29,6 +27,4 @@ const orderSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
 export default mongoose.models.Order || mongoose.model("Order", orderSchema);
-
