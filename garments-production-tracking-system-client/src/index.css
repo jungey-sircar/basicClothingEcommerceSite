@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.containerr{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.containerr2{
+    max-width: 1920px;
+    margin: auto;
+}
+
+main{
+    width: 100%;
+    flex-grow: 1;
+}
