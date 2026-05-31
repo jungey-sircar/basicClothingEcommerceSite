@@ -1,0 +1,39 @@
+# Root .gitignore for the entire project
+
+# Environment variables (NEVER commit these!)
+.env
+.env.*.local
+.env.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE and Editor
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.bak
+
+# MongoDB Memory Server
+.mongodb/
+
